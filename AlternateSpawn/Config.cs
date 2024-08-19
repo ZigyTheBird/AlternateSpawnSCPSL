@@ -19,13 +19,13 @@ namespace AlternateSpawn
         [Description("Valid rooms for alternate spawn.")]
         public List<RoomType> SpawningLocations { get; set; } = new List<RoomType>()
         {
-            RoomType.EzCollapsedTunnel, RoomType.EzVent
+            RoomType.EzVent
         };
 
         [Description("Apply to NTF.")]
-        public bool forNTF = false;
+        public bool ForNtf { get; set; } = false;
 
         [Description("Apply to CI.")]
-        public bool forCI = true;
+        public bool ForCi { get; set; } = true;
     }
 }

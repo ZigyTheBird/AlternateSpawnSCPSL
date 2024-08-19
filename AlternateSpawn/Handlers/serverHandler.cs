@@ -10,7 +10,7 @@ namespace AlternateSpawn.Handlers
     {
         public void onRespawnWave(RespawningTeamEventArgs args)
         {
-            if (!Warhead.IsDetonated && (args.NextKnownTeam == SpawnableTeamType.ChaosInsurgency && AlternateSpawn.Instance.Config.forCI) || (args.NextKnownTeam == SpawnableTeamType.NineTailedFox && AlternateSpawn.Instance.Config.forNTF))
+            if (!Warhead.IsDetonated && (args.NextKnownTeam == SpawnableTeamType.ChaosInsurgency && AlternateSpawn.Instance.Config.ForCi) || (args.NextKnownTeam == SpawnableTeamType.NineTailedFox && AlternateSpawn.Instance.Config.ForNtf))
             {
                 foreach (Player player in args.Players)
                 {
