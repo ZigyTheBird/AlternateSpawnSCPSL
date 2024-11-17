@@ -8,7 +8,7 @@ namespace AlternateSpawn
     {
         public override string Name => "AlternateSpawn";
         public override string Author => "ZigyTheBird";
-        public override Version Version => new Version(1, 0, 1);
+        public override Version Version => new Version(1, 0, 2);
 
         public override PluginPriority Priority => PluginPriority.Default;
 
